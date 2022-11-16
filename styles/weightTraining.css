@@ -408,12 +408,12 @@ MAIN STYLES
 }
 
 .weights1__img {
-    background-image: url('img/weights1.jpg');
+    background-image: url('/../img/weights1.jpg');
     background-position: 50% 50%;
 }
 
 .weights2__img {
-    background-image: url('img/weights2.jpg');
+    background-image: url('/../img/weights2.jpg');
     background-position: 50% 50%;
 }
 
