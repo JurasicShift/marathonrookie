@@ -1,0 +1,684 @@
+/*======================
+RESET STYLESHEET
+======================*/
+
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    line-height: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color: #ff9;
+    color: #000;
+    text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color: #ff9;
+    color: #000;
+    font-style: italic;
+    font-weight: bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+    border-bottom: 1px dotted;
+    cursor: help;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #cccccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+input,
+select {
+    vertical-align: middle;
+}
+
+/*=================================================
+MARATHON ROOKIE STYLES
+=================================================*/
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+}
+
+/*===================================================
+PRE-HEADER STYLES
+===================================================*/
+.prehead__hider {
+    display: none;
+}
+
+.prehead {
+    height: 50px;
+}
+
+.prehead__contact {
+    color: #2f3948;
+    display: none;
+}
+
+p.a__style a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/*===================================================
+NAVBAR STYLES
+===================================================*/
+
+.navbar {
+    min-height: 63px;
+    background-color: #2f3948;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.navhead__img {
+    position: absolute;
+    top: -20px;
+    height: 100px;
+    width: 175px;
+    margin-top: 2px;
+    margin-left: 3px;
+}
+
+.burger__bar {
+    color: #fff;
+    font-size: 28px;
+}
+
+ul.level1 {
+    margin-top: 50px;
+}
+
+.vh__100 {
+    min-height: 100vh;
+}
+
+.dropdown .fas {
+    transition: transform 400ms ease-in-out;
+}
+
+.dropdown.show i.fas {
+    transform: rotate(180deg);
+}
+
+a.dropdown-item:hover {
+    color: #3da0c3;
+    background-color: #2f3948;
+}
+
+.nav-link,
+.nav-item {
+    color: #fff;
+    line-height: 30px;
+    padding: 10px, 5px, 10px, 5px;
+}
+
+a.nav-link {
+    padding: 10px 5px 10px 5px;
+}
+
+.active__item {
+    color: #3DA0C3;
+}
+
+.nav-link:hover {
+    color: #3DA0C3;
+}
+
+.dropdown-menu {
+    background-color: #2f3948;
+    border: none;
+    padding: none;
+}
+
+.dropdown-item {
+    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 10px 5px 10px 5px;
+}
+
+.contact__margin {
+    margin-top: 60px;
+}
+
+.nav-item p {
+    margin: 10px 0;
+}
+
+.contact__icons {
+    height: 50px;
+    width: 50px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin: 10px 10px;
+}
+
+/*============================================
+WAVE STYLES
+============================================*/
+
+
+.wave {
+    position: relative;
+    width: 100%;
+    height: 325px;
+    background: linear-gradient(#2381a4, #1e8d89);
+}
+
+.wave__header {
+    color: white;
+    font-size: 32px;
+    padding-top: 25px;
+}
+
+.wave__text {
+    color: white;
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 25px;
+}
+
+.custom-shape-divider-bottom-1601461848 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1601461848 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 75px;
+}
+
+.custom-shape-divider-bottom-1601461848 .shape-fill {
+    fill: #fff;
+    border-bottom: 2px solid white;
+}
+
+.wave2 {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(#1e8d89, #2381a4);
+    margin-top: 20px;
+
+}
+
+.custom-shape-divider-top-1601462843 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1601462843 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 75px;
+}
+
+.custom-shape-divider-top-1601462843 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/*============================================
+MAIN STYLES
+============================================*/
+.main__head {
+    font-size: 32px;
+    color: #3393c0;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.main__text,
+.main__text2 {
+    color: #515151;
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 25px;
+}
+
+.main__text2 {
+    margin-bottom: 25px;
+}
+
+.list__title2 {
+    font-size: 20px;
+    color: #3393c0;
+}
+
+.article1__img {
+    background-image: url('img/article1.jpg');
+    height: 300px;
+    border-radius: 30px;
+    background-position: center;
+    background-size: cover;
+    margin: 25px 0;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+.see__btn {
+    color: #3393c0;
+    border: 2px solid #3393c0;
+    border-radius: 40px;
+    font-size: 20px;
+    padding: 5px 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.see__btn:hover {
+    color: white;
+    background-color: #3393c0;
+}
+
+.see__btn a {
+    color: #3393c0;
+    text-decoration: none;
+}
+
+.see__btn a:hover {
+    color: white;
+    background-color: #3393c0;
+}
+
+.has__dropcap::first-letter {
+
+    font-family: 'Cormorant', serif;
+    color: #3393c0;
+    font-size: 4rem;
+    float: left;
+    margin: 0.1em 0.1em 0 0;
+    line-height: 0.65;
+}
+
+.has__bold {
+    font-weight: bold;
+
+}
+
+
+/*=========================================
+CONNECT FOOTER STYLES
+=========================================*/
+
+.connect__header {
+    color: white;
+    font-size: 32px;
+    padding-top: 100px;
+}
+
+.connect__list {
+    padding-top: 25px;
+    justify-content: center;
+}
+
+.connect__icons {
+    height: 50px;
+    width: 50px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin: 10px 10px;
+    list-style-type: none;
+}
+
+.connect__text {
+    color: white;
+    font-size: 18px;
+    line-height: 28px;
+    padding-top: 25px;
+}
+
+.legal__header {
+    color: white;
+    font-size: 32px;
+    padding-top: 25px;
+}
+
+.legal__text {
+    padding: 25px 0;
+}
+
+.legal__text p,
+.legal__text a {
+    color: white;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.legal__text p:last-child {
+    padding-top: 25px;
+}
+
+
+
+
+
+/*===========================================
+MEDIA QUERIES
+===========================================*/
+
+@media only screen and (min-width: 536px) {
+
+    .wave {
+        height: 300px;
+    }
+}
+
+@media only screen and (min-width: 576px) {}
+
+@media only screen and (min-width: 600px) {}
+
+@media only screen and (min-width: 769px) {
+
+    .wave {
+        height: 325px;
+    }
+
+    .wave__header {
+        font-size: 40px;
+        padding-top: 40px;
+    }
+
+    .wave__text {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .spacer {
+        margin-top: 20px;
+    }
+
+    .article1__img {
+        height: 450px;
+        margin-top: 75px;
+
+    }
+}
+
+@media only screen and (min-width: 992px) {
+
+    .prehead__hider {
+        display: block;
+    }
+
+    .prehead {
+        height: 134px;
+    }
+
+    .prehead__img {
+        position: absolute;
+        top: -20px;
+        height: 175px;
+        width: 250px;
+    }
+
+    .prehead__envelope i {
+        color: #3da0c3;
+        border: 2px solid #3da0c3;
+        border-radius: 50%;
+        padding: 10px;
+        margin-right: 5px;
+    }
+
+    .prehead__contact {
+        font-size: 20px;
+        line-height: 134px;
+        display: inline;
+    }
+
+    .prehead__logo {
+        line-height: 134px;
+    }
+
+    .navbar {
+        height: 77px;
+        padding: 0px;
+    }
+
+    .navhead__img {
+        display: none;
+    }
+
+    ul.level1 {
+        margin-top: 0;
+    }
+
+    i.rotate {
+        transition: all .25s ease-in-out;
+    }
+
+    ul.level1 li.submenu:hover i.rotate {
+        transform: rotate(180deg);
+    }
+
+    div.level2 {
+        display: block;
+        transform: scale(1, 0);
+        transform-origin: top;
+        transition: transform 400ms ease-in-out;
+    }
+
+    ul.level1 li.submenu:hover div.level2 {
+        transform: scale(1, 1);
+    }
+
+    div.level2 a {
+        opacity: 0;
+        transition: opacity 150ms ease-in-out;
+    }
+
+    ul.level1 li.submenu:hover div.level2 a {
+        opacity: 1;
+        transition: opacity 250ms ease-in-out;
+    }
+
+    .nav-item {
+        padding: 15px 20px;
+    }
+
+    .nav-item.connect__icons {
+        padding: 10px 5px;
+    }
+
+    a.nav-link {
+        padding: 0px;
+    }
+
+    .dropdown-menu {
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+    }
+
+    .dropdown {
+        min-width: 190px;
+    }
+
+    .contact__hide {
+        display: none;
+    }
+
+    .vh__100 {
+        min-height: 77px;
+    }
+
+     .article1__img {
+        height: 350px;
+
+    }
+
+}
+
+
+
+@media only screen and (min-width: 1200px) {
+
+
+      .article1__img {
+        height: 350px;
+    }
+
+      .article1__img {
+        height: 300px;
+        margin-top: 50px;
+    }
+}

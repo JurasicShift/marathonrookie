@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/JurasicShift/marathonrookie/issues"
   },
-  "homepage": "https://github.com/JurasicShift/marathonrookie#readme"
+  "homepage": "https://github.com/JurasicShift/marathonrookie#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
