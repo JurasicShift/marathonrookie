@@ -1,0 +1,22 @@
+{
+  "name": "marathonrookie",
+  "version": "1.0.0",
+  "description": "Marthon training for beginners",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JurasicShift/marathonrookie.git"
+  },
+  "keywords": [
+    "running"
+  ],
+  "author": "Mick Whyte",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JurasicShift/marathonrookie/issues"
+  },
+  "homepage": "https://github.com/JurasicShift/marathonrookie#readme"
+}
