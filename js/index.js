@@ -1,3 +1,4 @@
+
 const cookieContainer = document.querySelector(".cookie-container");
 const cookieButton = document.querySelector(".cookie-btn");
 
@@ -10,5 +11,5 @@ setTimeout(() => {
     if (!localStorage.getItem("cookieBannerDisplayed")) {
         cookieContainer.classList.add("active");
     }
-}, 2000);
+}, 1000);
 
