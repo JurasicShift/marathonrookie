@@ -5,14 +5,10 @@ const __dirname = path.resolve();
 
 const port = process.env.PORT || 8080;
 
-app.use(express.static(path.join(__dirname, 'views')));
+app.use('/', express.static(path.join(__dirname, 'views')));
 app.use('/styles', express.static(__dirname + '/styles'));
 app.use('/img', express.static(__dirname + '/img'));
 app.use('/js', express.static(__dirname + '/js'));
-
-app.get('/', (req, res) => {
-	res.render('/views/index.html');
-});
 
 app.listen(port, err => {
 	if (err) console.log('Error in server setup:', err);
