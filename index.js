@@ -15,6 +15,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/10k5k', function (req, res) {
+	console.log("HIT ROUTE HIT ROUTE HIT ROUTE!!!");
 	res.sendFile(path.join(__dirname, '/views/10k5k.html'));
 });
 
