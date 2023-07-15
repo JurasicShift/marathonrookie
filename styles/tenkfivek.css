@@ -414,15 +414,13 @@ MAIN STYLES
 	background: linear-gradient(rgba(30, 141, 137, 0.2), rgba(35, 129, 164, 0.2));
 }
 
-.tenk1__img {
-	background-image: url('/../img/tenkfivek.jpg');
-}
 
-.tenK1__img {
+.tenk1__img {
 	height: 300px;
 	border-radius: 30px;
 	background-position: center;
 	background-size: cover;
+	background-image: url('/../img/tenkfivek.jpg');
 	margin: 15px 0;
 	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
@@ -507,7 +505,7 @@ MEDIA QUERIES
 		padding-top: 50px;
 	}
 
-	.tenK1__img {
+	.tenk1__img {
 		height: 400px;
 	}
 }
@@ -549,7 +547,7 @@ MEDIA QUERIES
 		margin: 35px 0;
 	}
 
-	.tenK1__img {
+	.tenk1__img {
 		height: 600px;
 		background-position: 25% 50%;
 	}
@@ -666,7 +664,7 @@ MEDIA QUERIES
 		font-size: 14px;
 	}
 
-	.tenK1__img {
+	.tenk1__img {
 		height: 500px;
 	}
 }
