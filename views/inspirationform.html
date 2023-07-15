@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="icon" href="/img/favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" type="text/css" href="/styles/motivation.css">
-    <title>Motivation</title>
+    <link rel="stylesheet" type="text/css" href="/styles/inspirationform.css">
+    <title>Inspiration Form</title>
 </head>
 
 <body>
@@ -49,11 +49,11 @@
                         </div>
                     </li>
                     <li class="nav-item dropdown submenu">
-                        <a class="nav-link active__item" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Training Context <i class="fas fa-angle-down rotate"></i>
                         </a>
                         <div class="dropdown-menu text-center level2" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#"> - Motivation</a>
+                            <a class="dropdown-item" href="/motivation"> - Motivation</a>
                             <a class="dropdown-item" href="/hydration">- Hydration</a>
                             <a class="dropdown-item" href="/nutrition">- Nutrition</a>
                             <a class="dropdown-item" href="/heartrate"> - Heart Rate</a>
@@ -76,7 +76,7 @@
                         </div>
                     </li>
                     <li class="nav-item dropdown submenu">
-                        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link active__item" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Resources <i class="fas fa-angle-down rotate"></i>
                         </a>
                         <div class="dropdown-menu text-center level2" aria-labelledby="navbarDropdown">
@@ -112,8 +112,8 @@
     </header>
     <section class="wave">
         <div class="container">
-            <h2 class="wave__header">Marathon Motivation</h2>
-            <p class="wave__text">Got enough marathon motivation to push you across the finish line? It’s one thing to be motivated to start training, it’s another to stay motivated every day.</p>
+            <h2 class="wave__header">Marathon Inspiration Form</h2>
+            <p class="wave__text">What is driving you to run a marathon or half marathon? Share it with your fellow runners!</p>
         </div>
         <div class="custom-shape-divider-bottom-1601461848">
             <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
@@ -124,66 +124,122 @@
     <main>
         <div class="container">
             <div class="container-fluid">
-                <div class="row align-items-center">
-                    <div class="col-12 col-md-6 text-center">
+                <div class="row align-items-center spacer">
+                    <div class="col-12 text-center">
                         <div class="container">
-                            <h2 class="main__head">Visualization</h2>
+                            <p class="main__text2">Recently finish a marathon or half marathon? Tell others about the thrill you experienced during the race and when you crossed the finish line.
+                                Have a funny story from a race or training run?
+                                Share your story to help motivate and inspire others.
+                                Submit the marathon inspiration form below to have your story added to the <a class="alink" href="/inspirationalstories"><span class="list__title">Inspirational Stories</span></a> page.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container text-center">
+                <form class="form__styles border rounded form__width col__centre">
+                    <div class="form-group">
+                        <div class="col-lg-8 col__centre">
+                            <label class="main__text2">
+                                <span class="list__title2">First Name &#42;</span></label>
+                            <div class="container">
+                                <input type="email" class="form-control border-secondary" placeholder="name...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-lg-8 col__centre">
+                            <label class="main__text2"><span class="list__title2">E-mail Address &#42;</span></label>
+                            <div class="container">
+                                <input type="password" class="form-control border-secondary" placeholder="e-mail...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-lg-8 col__centre">
+                            <label class="main__text2"><span class="list__title2">Street Address &#42;</span></label>
+                            <div class="container">
+                                <input type="password" class="form-control border-secondary">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-lg-8 col__centre">
+                            <label class="main__text2"><span class="list__title2">City &#42;</span></label>
+                            <div class="container">
+                                <input type="password" class="form-control border-secondary">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-lg-8 col__centre">
+                            <label class="main__text2"><span class="list__title2">State/Prov &#42;</span></label>
+                            <div class="container">
+                                <input type="password" class="form-control border-secondary">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-lg-8 col__centre">
+                            <label class="main__text2"><span class="list__title2">Country &#42;</span></label>
+                            <div class="container">
+                                <input type="password" class="form-control border-secondary">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-lg-8 col__centre">
+                            <label class="main__text2"><span class="list__title2">Marthon or Half Marathon?</span></label>
+                            <div class="container">
+                                <textarea class="form-control border-secondary" aria-label="With textarea"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-lg-8 col__centre">
+                            <label class="main__text2"><span class="list__title2">What is your inspiration for running?</span></label>
+                            <div class="container">
+                                <textarea class="form-control border-secondary" aria-label="With textarea"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-lg-8 col__centre">
+                            <label class="main__text2"><span class="list__title2">If you are raising money for charity, provide website where donations can be accepted:</span></label>
+                            <div class="container">
+                                <textarea class="form-control border-secondary" aria-label="With textarea"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-lg-8 col__centre">
+                            <label class="main__text2"><span class="list__title2">Additional Comments</span></label>
+                            <div class="container">
+                                <textarea class="form-control border-secondary" aria-label="With textarea"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn see__btn text-center">Submit</button>
+                </form>
+            </div>
+            <div class="container-fluid">
+                <div class="row align-items-center spacer">
+                    <div class="col-12 text-center">
+                        <div class="container">
                             <p class="main__text">
-                                Training the mind should be considered equally important to physical marathon training. Following are a few simple techniques to help build mental toughness and create the proper mindset.<br>
-                                Set aside a few minutes each day, or at least a few times each week, to relax and picture in your mind the runner you want to be. Picture yourself making a great training run or running the actual race. As you are creating that image, try to get other senses involved by trying to feel what it will feel like to achieve your goal or push through any obstacles you envision.
+                                Once your story is added, you will receive an email notification with a link to the updated page. If you submit a story about why your are training for a marathon or half marathon, then be sure to come back after your big day and let everyone know you did it!
                             </p>
-                            <h2 class="main__head">Affirmations</h2>
-                            <p class="main__text2">
-                                Flood your mind with positive thoughts by talking to yourself every day. Tell yourself that you are a marathon runner, a sub-four hour marathoner, or whatever it is your goal might be. Our minds operate in the present so the more we tell ourselves something, even if it is not yet true, the faster our mind believes it and begins working now to make that affirmation a reality. Also, put an affirmation, race brochure, or inspiring quote somewhere you will see it every day like on your desk or bathroom mirror.
+                            <p class="main__text">
+                                Thank you for sharing your story.
                             </p>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 text-center">
-                        <div class="container">
-                            <div class="moti1__img">
-                            </div>
+                            <p class="main__text2 font__weight">
+                                Happy running!
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="container-fluid">
-                <div class="row align-items-center">
-                    <div class="col-12 col-md-6 text-center order-md-last">
-                        <div class="container">
-                            <h2 class="main__head">Block the Negative</h2>
-                            <p class="main__text2">
-                                Be aware of negative thoughts creeping into your mind. When you catch them, stop them cold in their tracks by telling yourself the opposite. For instance, if you catch yourself thinking you are tired during a run, tell yourself several times, with emphasis, that you feel great or feel strong. Do the same for any pain during a run. By telling yourself the opposite, you are diverting your focus from the negative to the positive.<br>
-                                Over the course of training, you may find yourself lacking motivation at some point. This is very common. Maybe you get discouraged because unexpected events have caused you to miss a run, a few runs, or even a week or more of runs. Maybe something in your life diverts your focus from training and your goal. Whatever the case, do not let it stop you from achieving your goal!<br>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 text-center">
-                        <div class="container">
-                            <div class="moti2__img">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container-fluid">
-                <div class="row align-items-center">
-                    <div class="col-12 col-md-6 text-center">
-                        <div class="container">
-                            <p class="main__text2">
-                                Think of supporters cheering you on as you run with ease through the marathon or half marathon. Think about how rewarding it will be when you cross the finish line and reflect on what you have just accomplished.<br>
-                                Surround yourself with positive, motivating things. Watching <a href="/runningmovies">running movies</a> is great for marathon motivation. Find something that connects with you emotionally and you will find that your intensity and desire will grow to where you don’t just want to achieve your goal, you have to achieve your goal.<br>
-                                Take a step back and think about why you have set this monster goal for yourself and see yourself enjoying all the benefits you expect to have once you accomplish your goal.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 text-center">
-                        <div class="container">
-                            <div class="moti3__img">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        </div>
     </main>
     <footer class="wave2">
         <div class="container">
